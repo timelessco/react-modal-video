@@ -195,7 +195,7 @@ ModalVideo.defaultProps = {
     modalVideoBody: 'modal-video-body',
     modalVideoInner: 'modal-video-inner',
     modalVideoIframeWrap: 'modal-video-movie-wrap',
-    modalVideoCloseBtn: 'modal-video-close-btn'
+    modalVideoCloseBtn: 'modal-video-close-btn',
     body: 'ReactModal__Body--open'
   },
   aria: {
