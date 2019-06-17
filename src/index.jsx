@@ -13,8 +13,7 @@ export default class ModalVideo extends React.Component {
   }
 
   openModal() {
-    this.setState({ isOpen: true });
-    document.getElementsByTagName('body').classList.add('ReactModal__Body--open');
+    this.setState({ isOpen: true })
   }
 
   closeModal() {
