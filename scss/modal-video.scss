@@ -1,6 +1,6 @@
 $animation-speed: .25s;
 $animation-function: ease-out;
-$backdrop-color: rgba(255, 255, 255, 0.5);
+$backdrop-color: rgba(255, 255, 255, 0.99);
 
 @keyframes modal-video {
 	from {
@@ -95,6 +95,7 @@ $backdrop-color: rgba(255, 255, 255, 0.5);
 		left: 0;
 		width: 100%;
 		height: 100%;
+		border-radius: 10px; 
 	}
 }
 
