@@ -1,6 +1,6 @@
-$animation-speed: .3s;
+$animation-speed: .25s;
 $animation-function: ease-out;
-$backdrop-color: rgba(0, 0, 0, .5);
+$backdrop-color: rgba(255, 255, 255, 0.99);
 
 @keyframes modal-video {
 	from {
@@ -109,6 +109,9 @@ $backdrop-color: rgba(0, 0, 0, .5);
 	overflow: hidden;
 	border: none;
 	background: transparent;
+	outline: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
 
 	&:before {
 		transform: rotate(45deg);
@@ -127,7 +130,7 @@ $backdrop-color: rgba(0, 0, 0, .5);
 		top: 50%;
 		left: 0;
 		margin-top: -1px;
-		background: #fff;
+		background: #ff6357;
 		border-radius: 5px;
 		margin-top: -6px;
 	}
